@@ -13,6 +13,12 @@
 
   	<link rel="stylesheet" href="css/index.css">
 
+  	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  	<link rel="stylesheet" href="css/polyfill.object-fit.css">
+
+
 	<!-- jQuery -->
   	<script src="js/jquery-3.1.1.min.js"></script>
 
@@ -37,12 +43,148 @@
   	</nav>
 
 
+	<!-- <div class="row">
+      <div class="col l6 red ">This div is 12-columns wide</div>
+      <div class="col l3 blue">This div is 6-columns wide</div>
+      <div class="col l3 green">This div is 6-columns wide</div>
+      <div class="col offset-l3 indigo">3This div is 6-columns wide</div>
+      <div class="col l3 light-blue">3This div is 6-columns wide</div>
+    </div> -->
+    <!-- <div class="row">
+    	<div class="col l4 red ">
+    		<p>1</p>
+    	</div>
+    	<div class="col l8 green ">
+    		<div class="row">
+    			<div class="col l6 red lighten-5">
+    				<p>2</p>
+    			</div>
+    			<div class="col l6 red lighten-3">
+    				<p>3</p>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<div class="col l6 red lighten-1">
+    				<p>4</p>
+    			</div>
+    			<div class="col l6 pink">
+    				<p>5</p>
+    			</div>
+    			<div class="col l6 red lighten-1">
+    				<p>4q</p>
+    			</div>
+    			<div class="col l6 pink">
+    				<p>5q</p>
+    			</div>
+    		</div>
+    	</div>
+    </div> -->
+	
+	<!-- HeroImg -->
+	
+	<div class="parallax-container">
+    	<div class="parallax"><img src="images/test01.jpg"></div>
+    	<div>
+    		<h2 class="center-align">太陽能發電監控系統</h2>
+    		<h6 class="center-align">即時電廠資訊，發電效益隨時掌握</h6>
+
+  		</div>
+    </div>
+
+
+    <div class="row">
+        <div class="col s12 l6">
+        	<div class="card stationInfo">
+	            <div class="card-image">
+	            	<!-- stationInfo image -->
+	            	<img  src="images/test02.jpg">
+	            	<span class="card-title">向陽廠辦 / 123kWp</span>	     
+	            </div>
+	            <div class="card-content">
+		            <!-- chips -->
+		            <div class="chip">
+	    				嘉義縣
+	  				</div>
+	  				<div class="chip">
+	    				朴子市
+	  				</div>
+	  				<div class="chip">
+	    				廠房
+	  				</div>
+	  				<div class="chip">
+	    				東西向
+	  				</div>
+	  				<div class="chip">
+	    				撐高
+	  				</div>
+					
+
+				<ul class="collection"> 
+				    <li class="collection-item avatar">
+				    	<!-- icon -->
+			    		<i class="material-icons circle blue">power_input</i> 
+
+			    		<!-- title -->
+				    	<span class="title">累計總發電量</span>
+
+				    	<!-- value -->
+				    	<p>123,456 <span>度</span></p>
+				      
+				      	<!-- icon -->
+				    	<a class="secondary-content">
+				    		<i class="material-icons">settings_input_composite</i>
+				    	</a>
+				   	</li>
+
+				    <li class="collection-item avatar">
+				    	<!-- icon -->
+			    		<i class="material-icons circle deep-orange">event</i> 
+
+			    		<!-- title -->
+				    	<span class="title">今日發電營收</span>
+
+				    	<!-- value -->
+				    	<p>123,456 <span>元</span></p>
+				      
+				      	<!-- icon -->
+				    	<a class="secondary-content">
+				    		<i class="material-icons">event</i>
+				    	</a>
+				   	</li>
+
+				   	<li class="collection-item avatar">
+				    	<!-- icon -->
+			    		<i class="material-icons circle green accent-4">date_range</i> 
+
+			    		<!-- title -->
+				    	<span class="title">累計發電營收</span>
+
+				    	<!-- value -->
+				    	<p>123,456 <span>元</span></p>
+				      
+				      	<!-- icon -->
+				    	<a class="secondary-content">
+				    		<i class="material-icons">date_range</i>
+				    	</a>
+				   	</li>
+				</ul>
+					 
+	            </div>
+	            <!-- <div class="card-action">
+              		<a href="#">This is a link</a>
+	            </div> -->
+          	</div>
+        </div>
+      </div>
+          
+
 
 
 
 
 	<!-- Materialize : Compiled and minified JavaScript -->
   	<script src="js/materialize.min.js"></script>
+  	<script src="js/polyfill.object-fit.min.js"></script>
 
   	<script>
 
@@ -50,9 +192,15 @@
   			// Materialize.toast(message, displayLength, className, completeCallback);
   			Materialize.toast('I am a toast!', 4000) // 4000 is the duration of the toast
   		}
+
+  		$(document).ready(function(){
+	      $('.parallax').parallax();
+	    });
   		
         
   	</script>
+
+  	 
 	
 </body>
 </html>

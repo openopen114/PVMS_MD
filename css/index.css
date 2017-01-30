@@ -9,3 +9,39 @@
   width: 127.68px;
   height: 27.74px;
 }
+
+/* line 15, ../sass/index.scss */
+.parallax-container {
+  height: "10em";
+}
+/* line 18, ../sass/index.scss */
+.parallax-container h2 {
+  font-size: 2.5em;
+  color: #fff;
+  margin-top: 3em;
+}
+/* line 24, ../sass/index.scss */
+.parallax-container h6 {
+  font-size: 1em;
+  color: #fff;
+}
+
+/* line 32, ../sass/index.scss */
+.stationInfo img {
+  height: 30em;
+}
+/* line 38, ../sass/index.scss */
+.stationInfo .avatar span {
+  font-size: 0.3em;
+  color: #78909c;
+}
+/* line 42, ../sass/index.scss */
+.stationInfo .avatar p {
+  font-size: 1.5em;
+  color: #2196f3;
+}
+/* line 46, ../sass/index.scss */
+.stationInfo .avatar p span {
+  font-size: 0.38em;
+  color: #2196f3;
+}

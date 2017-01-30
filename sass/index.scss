@@ -10,3 +10,44 @@ $times : 0.38;
   }
 
 }
+
+
+.parallax-container {
+	height: "10em";
+
+	h2{
+		font-size: 2.5em;
+		color: #fff;
+		margin-top: 3em;
+	}
+
+	h6{
+		font-size: 1em;
+		color: #fff;
+	}
+}
+
+
+.stationInfo{
+	img{
+		height: 30em;
+	}
+
+	.avatar{
+		
+		span{
+			font-size: 0.3em;
+			color:#78909c;
+		}
+		p{	
+			font-size: 1.5em;
+			color: #2196f3;
+
+			span{
+				font-size: 0.38em;
+				color: #2196f3;
+			}
+		}
+	}
+	
+}
